@@ -134,7 +134,7 @@ X_val, y_val = X[train_size:train_size +
 X_test, y_test = X[train_size + val_size:], y[train_size + val_size:]
 
 # Construir el árbol de decisión
-max_depth = 5  # Puedes ajustar esta profundidad
+max_depth = 6  # Puedes ajustar esta profundidad
 decision_tree = build_tree(X_train, y_train, max_depth=max_depth)
 
 # Evaluación en el conjunto de validación
