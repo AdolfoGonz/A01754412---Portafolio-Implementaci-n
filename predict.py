@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from model_train import build_tree, predict_tree
+from model.model_train import build_tree, predict_tree
 
 # Cargar el árbol de decisión ya entrenado o entrenarlo de nuevo
 
